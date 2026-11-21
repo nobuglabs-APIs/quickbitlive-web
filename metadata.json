@@ -1,0 +1,6 @@
+{
+  "name": "QuickBit — AI Product Intelligence",
+  "description": "B2B SaaS platform for QuickBit: AI-driven product decisions, feedback signals, clusters, insights, recommendations, and roadmap alignment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

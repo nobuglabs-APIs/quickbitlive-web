@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickBit Live</title>
+    <link rel="icon" type="image/png" href="/logo/favicon.png" />
+    <meta name="description" content="B2B SaaS platform for QuickBit Live: AI-driven product decisions, feedback signals, clusters, insights, recommendations, and roadmap alignment." />
+    <meta property="og:title" content="QuickBit Live" />
+    <meta property="og:description" content="B2B SaaS platform for QuickBit Live: AI-driven product decisions, feedback signals, clusters, insights, recommendations, and roadmap alignment." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        try {
+          var root = typeof window !== 'undefined' ? window : typeof globalThis !== 'undefined' ? globalThis : self;
+          if (root && root.fetch) {
+            var currentFetch = root.fetch.bind(root);
+            try {
+              Object.defineProperty(root, 'fetch', {
+                get: function() {
+                  return currentFetch;
+                },
+                set: function(newFetch) {
+                  currentFetch = newFetch;
+                },
+                configurable: true,
+                enumerable: true
+              });
+            } catch (err) {
+              try {
+                if (window.Window && window.Window.prototype) {
+                  Object.defineProperty(window.Window.prototype, 'fetch', {
+                    get: function() {
+                      return currentFetch;
+                    },
+                    set: function(newFetch) {
+                      currentFetch = newFetch;
+                    },
+                    configurable: true,
+                    enumerable: true
+                  });
+                }
+              } catch (e) {}
+            }
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script
+  src="https://cdn.quickbit.live/widget.js"
+  data-api-key="qb_ekmzCOakEz6Yu9qitNruMI0-4HoHDe0gHunccU4-u2E"
+  async
+></script>
+  </head>
+  <body class="bg-[#FFFFFF] text-[#0A0A0A] antialiased selection:bg-neutral-900 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
